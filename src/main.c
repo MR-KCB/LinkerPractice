@@ -4,6 +4,7 @@ typedef struct  {
   long major_ver; 
   long minor_ver; 
   long variant; 
+  long variant2; 
 } header_T;
 
 
@@ -14,12 +15,13 @@ const header_T BANK_HEADER =
   .major_ver = 22,
   .minor_ver = 92,
   .variant = 'C' 
+  .variant2 = 'C1' 
 };
 #pragma section default
 
 unsigned long long getFactorial(int n);
 
-int main(){
+int custom_main(){
   int myvar=0;
   int myresult=0;
   unsigned long long myfact=0;

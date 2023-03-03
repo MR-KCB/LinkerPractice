@@ -1,4 +1,4 @@
-ENTRY(Reset_Handler)
+ENTRY(reset)
 
 __STACK_SIZE = 0x00000400;
 

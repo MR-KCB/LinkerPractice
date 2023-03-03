@@ -3,5 +3,5 @@ This repository contain an environment with basic capabilities to work with link
 
 
 ## How to build
-Run ./build.bat to compile the project
+Run ./build.bat all to compile the project
  
