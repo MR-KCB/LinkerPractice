@@ -14,8 +14,8 @@ const header_T BANK_HEADER =
 {
   .major_ver = 22,
   .minor_ver = 92,
-  .variant = 'C' 
-  .variant2 = 'C1' 
+  .variant = 'C', 
+  .variant2 = 'D' 
 };
 #pragma section default
 

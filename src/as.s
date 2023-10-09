@@ -1,11 +1,6 @@
-.global  _start
+# Small and simple start-up file
+.section .text 
+.global reset
 
-# Start a special section called .text.prologue making it
-# allocatable and executable
-.section .text.prologue, "ax"
-
-_start:
-jmp main
-
-.text
-# All other regular code in the normal .text section
+reset:
+    jmp _custom_main
